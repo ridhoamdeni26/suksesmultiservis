@@ -1,0 +1,930 @@
+/*** KAMI HADIR MEMBERIKAN SOLUSI ***/
+
+.text-memberikan-solusi {
+    font-weight: 800 !important;
+    font-size: 2.5rem;
+    margin-top:0;
+    font-family:"Nunito",sans-serif;
+    line-height:1.2;
+    color:#091E3E;
+}
+
+.margin-memberikan-solusi {
+    margin-bottom:5rem;
+}
+
+
+/* SERVICE */
+
+/* --- JASA SERVICE --- */
+.slide-container-jasa-service {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+.wrapper-jasa-service {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.wrapper-jasa-service:focus {
+    outline: 0;
+}
+
+.clash-card-jasa-service {
+    background: #38b6ff;
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 19px;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+}
+.clash-card__image-jasa-service {
+    position: relative;
+    height: 120px;
+    margin-bottom: 35px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.clash-card__image--jasa-service img {
+    width: 400px;
+    position: absolute;
+    top: -140px;
+    left: -50px;
+}
+
+.clash-card__unit-name-jasa-service {
+    font-size: 26px;
+    color: #FFFFFF;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.clash-card__unit-description-jasa-service {
+    padding: 20px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+/* --- ANTAR JEMPUT --- */
+.slide-container-antar-jemput {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+.wrapper-antar-jemput {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.wrapper-antar-jemput:focus {
+    outline: 0;
+}
+.clash-card-antar-jemput {
+    background: #fcd739;
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 19px;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+}
+.clash-card__image-antar-jemput {
+    position: relative;
+    height: 120px;
+    margin-bottom: 35px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.clash-card__image--antar-jemput img {
+    width: 400px;
+    position: absolute;
+    top: -140px;
+    left: -50px;
+}
+
+.clash-card__unit-name-antar-jemput {
+    font-size: 26px;
+    color: #FFFFFF;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.clash-card__unit-description-antar-jemput {
+    padding: 20px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+/* --- LAYANAN PELANGGAN --- */
+.slide-container-layanan-pelanggan {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+.wrapper-layanan-pelanggan {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.wrapper-layanan-pelanggan:focus {
+    outline: 0;
+}
+.clash-card-layanan-pelanggan {
+    background: #064663;
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 19px;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+}
+.clash-card__image-layanan-pelanggan {
+    position: relative;
+    height: 120px;
+    margin-bottom: 35px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.clash-card__image--layanan-pelanggan img {
+    width: 300px;
+    position: absolute;
+    top: -95px;
+    left: -25px;
+}
+
+.clash-card__unit-name-layanan-pelanggan {
+    font-size: 26px;
+    color: #FFFFFF;
+    font-weight: 900;
+    margin-bottom: 5px;
+    padding:0 15px;
+}
+.clash-card__unit-description-layanan-pelanggan {
+    padding: 20px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+/* --- RUANG PENYIMPANAN --- */
+.slide-container-ruang-penyimpanan {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+.wrapper-ruang-penyimpanan {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.wrapper-ruang-penyimpanan:focus {
+    outline: 0;
+}
+
+.clash-card-ruang-penyimpanan {
+    background: #38b6ff;
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 19px;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+}
+.clash-card__image-ruang-penyimpanan {
+    position: relative;
+    height: 120px;
+    margin-bottom: 35px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.clash-card__image--ruang-penyimpanan img {
+    width: 400px;
+    position: absolute;
+    top: -140px;
+    left: -50px;
+}
+
+.clash-card__unit-name-ruang-penyimpanan {
+    font-size: 26px;
+    color: #FFFFFF;
+    font-weight: 900;
+    margin-bottom: 5px;
+    padding:0 15px;
+}
+.clash-card__unit-description-ruang-penyimpanan {
+    padding: 20px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+/* --- PENGALAMAN PELANGGAN --- */
+.slide-container-pengalaman-pelanggan {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+.wrapper-pengalaman-pelanggan {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.wrapper-pengalaman-pelanggan:focus {
+    outline: 0;
+}
+
+.clash-card-pengalaman-pelanggan {
+    background: #a21942;
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 19px;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+}
+.clash-card__image-pengalaman-pelanggan {
+    position: relative;
+    height: 120px;
+    margin-bottom: 35px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.clash-card__image--pengalaman-pelanggan img {
+    width: 400px;
+    position: absolute;
+    top: -140px;
+    left: -50px;
+}
+
+.clash-card__unit-name-pengalaman-pelanggan {
+    font-size: 26px;
+    color: #FFFFFF;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.clash-card__unit-description-pengalaman-pelanggan {
+    padding: 20px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+/* --- LAPORAN LANGSUNG --- */
+.slide-container-laporan-langsung {
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
+.wrapper-laporan-langsung {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.wrapper-laporan-langsung:focus {
+    outline: 0;
+}
+
+.clash-card-laporan-langsung {
+    background: #064663;
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 19px;
+    position: relative;
+    text-align: center;
+    box-shadow: -1px 15px 30px -12px black;
+}
+.clash-card__image-laporan-langsung {
+    position: relative;
+    height: 120px;
+    margin-bottom: 35px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.clash-card__image--laporan-langsung img {
+    width: 400px;
+    position: absolute;
+    top: -140px;
+    left: -50px;
+}
+
+.clash-card__unit-name-laporan-langsung {
+    font-size: 26px;
+    color: #FFFFFF;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.clash-card__unit-description-laporan-langsung {
+    padding: 20px;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+
+/* --- MILESTONES */
+
+.item-row {
+    flex: 0 1 calc(20% - 0px);
+}
+
+.text-milestones {
+    font-weight: 800 !important;
+    font-size: 2.5rem;
+    margin-top:0;
+    font-family:"Nunito",sans-serif;
+    line-height:1.2;
+    color:#091E3E;
+}
+
+.margin-milestones {
+    margin-bottom:1rem;
+}
+
+.ps-timeline-sec {
+    position: relative;
+    background: #fff;
+}
+.ps-timeline-sec .container-milestones {
+    position: relative;
+}
+
+/* PHONE LANDSCAPE */
+@media screen and (max-width: 767px) {
+    .ps-timeline-sec .container-milestones ol:before {
+        background: #348e80;
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        position: absolute;
+        top: 130px !important;
+        left: 36px !important;
+   }
+    .ps-timeline-sec .container-milestones ol:after {
+        background: #348e80;
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        position: absolute;
+        top: inherit !important;
+        left: 36px;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline {
+        margin: 130px 0 !important;
+        border-left: 2px solid #348e80;
+        padding-left: 0 !important;
+        padding-top: 120px !important;
+        border-top: 0 !important;
+        margin-left: 25px !important;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li {
+        height: 220px;
+        float: none !important;
+        width: inherit !important;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li:nth-child(2) .img-handler-bot img {
+        width: 70px;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li:last-child {
+        margin: 0;
+        bottom: 0 !important;
+        height: 120px;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li:last-child .img-handler-bot {
+        bottom: 40px !important;
+        width: 40% !important;
+        margin-left: 25px !important;
+        margin-top: 0 !important;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li:last-child .img-handler-bot img {
+        width: 100%;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li:last-child .ps-top {
+        margin-bottom: 0 !important;
+        top: 20px;
+        width: 50% !important;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li span {
+        left: 0 !important;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li span.ps-sp-top:before {
+        content: none !important;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li span.ps-sp-top:after {
+        content: none !important;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li span.ps-sp-bot:before {
+        content: none !important;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li span.ps-sp-bot:after {
+        content: none !important;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li .img-handler-top {
+        position: absolute !important;
+        bottom: 150px !important;
+        width: 30% !important;
+        float: left !important;
+        margin-left: 35px !important;
+        margin-bottom: 0 !important;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li .img-handler-top img {
+        margin: 0 auto !important;
+        width: 80% !important;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li .img-handler-bot {
+        position: absolute !important;
+        bottom: 115px !important;
+        width: 30% !important;
+        float: left !important;
+        margin-left: 35px !important;
+        margin-bottom: 0 !important;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li p {
+        text-align: left !important;
+        width: 100% !important;
+        margin: 0 auto !important;
+        margin-top: 0px !important;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li .ps-top {
+        width: 60% !important;
+        float: right !important;
+        right: 0;
+        top: -40px;
+   }
+    .ps-timeline-sec .container-milestones ol.ps-timeline li .ps-bot {
+        width: 60% !important;
+        float: right !important;
+        right: 0;
+        top: -40px;
+   }
+}
+
+/* PHONE portrait */
+@media (max-width: 575.98px) { 
+    .px-5 {
+        padding-left:1rem !important;
+        padding-right:1rem !important;
+    }
+
+    .img-mobile-responsive {
+        width:60%;
+        height:auto;
+    }
+
+    .header-carousel .owl-dots {
+        display:none !important;
+    }
+
+    .header-responsive {
+        text-align: center;
+    }
+
+    .header-button-center {
+        text-align: center;
+        margin: 0 auto;
+        display: table;
+    }
+}
+
+.ps-timeline-sec .container ol:before {
+    background: #348e80;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: absolute;
+    left: 8px;
+    top: 49.5%;
+}
+.ps-timeline-sec .container ol:after {
+    background: #348e80;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    position: absolute;
+    right: 8px;
+    top: 49.5%;
+}
+.ps-timeline-sec .container-milestones ol.ps-timeline {
+    margin: 300px 0;
+    padding: 0;
+    border-top: 2px solid #348e80;
+    list-style: none;
+}
+.ps-timeline-sec .container-milestones ol.ps-timeline li {
+    float: left;
+    width: 20%;
+    padding-top: 30px;
+    position: relative;
+}
+.ps-timeline-sec .container-milestones ol.ps-timeline li span {
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+    background: #fff;
+    border: 4px solid #348e80;
+    border-radius: 50%;
+    box-shadow: 0 0 0 0px #fff;
+    text-align: center;
+    line-height: 50px -10;
+    color: #df8625;
+    font-size: 2em;
+    font-style: normal;
+    position: absolute;
+    top: -26px;
+    left: 50%;
+}
+.ps-timeline-sec .container-milestones ol.ps-timeline li span.ps-sp-top:before {
+    content: '';
+    color: #348e80;
+    width: 2px;
+    height: 50px;
+    background: #348e80;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+}
+.ps-timeline-sec .container-milestones ol.ps-timeline li span.ps-sp-top:after {
+    content: '';
+    color: #348e80;
+    width: 8px;
+    height: 8px;
+    background: #348e80;
+    position: absolute;
+    bottom: 90px;
+    left: 44%;
+    border-radius: 100%;
+}
+.ps-timeline-sec .container-milestones ol.ps-timeline li span.ps-sp-bot:before {
+    content: '';
+    color: #348e80;
+    width: 2px;
+    height: 50px;
+    background: #348e80;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+}
+.ps-timeline-sec .container-milestones ol.ps-timeline li span.ps-sp-bot:after {
+    content: '';
+    color: #348e80;
+    width: 8px;
+    height: 8px;
+    background: #348e80;
+    position: absolute;
+    top: 90px;
+    left: 44%;
+    border-radius: 100%;
+}
+.ps-timeline-sec .container-milestones ol.ps-timeline li .img-handler-top {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 130px;
+    width: 100%;
+}
+.ps-timeline-sec .container-milestones ol.ps-timeline li .img-handler-top img {
+    display: table;
+    margin: 0 auto;
+}
+.ps-timeline-sec .container-milestones ol.ps-timeline li .img-handler-bot {
+    position: absolute;
+    margin-top: 60px;
+    width: 100%;
+}
+.ps-timeline-sec .container-milestones ol.ps-timeline li .img-handler-bot img {
+    display: table;
+    margin: 0 auto;
+}
+.ps-timeline-sec .container-milestones ol.ps-timeline li p {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.ps-timeline-sec .container-milestones ol.ps-timeline li .ps-top {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 100px;
+    margin-left: 87px;
+}
+.ps-timeline-sec .container-milestones ol.ps-timeline li .ps-bot {
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 90px;
+}
+
+
+/* --- PETA INDONESIA --- */
+.text-peta {
+    font-weight: 800 !important;
+    font-size: 2.5rem;
+    margin-top:0;
+    font-family:"Nunito",sans-serif;
+    line-height:1.2;
+    color:#091E3E;
+}
+
+/* --- OUR CLIENT --- */
+.text-our-client {
+    font-weight: 800 !important;
+    font-size: 2.5rem;
+    margin-top:0;
+    font-family:"Nunito",sans-serif;
+    line-height:1.2;
+    color:#091E3E;
+}
+
+#example1 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/footer/footer.png) center center no-repeat;
+    background-size: cover;
+}
+
+
+/* ---- SECTION ABOUT US --- */
+/* ------------------------- */
+
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,600;1,500&display=swap");
+
+.margin-section-about-us {
+    margin-top: 5.5rem !important;
+}
+ 
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+#main-about-us {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(#91979c, rgba(0, 0, 0, .5)), url(../img/aboutus/design-background-main-aboutus.png) center center no-repeat;
+    background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-box-about-us {
+  background: white;
+  width: 80%;
+  min-height: 80vh;
+  border-radius: 1rem;
+  backdrop-filter: blur(2rem);
+  z-index: 4;
+  opacity: 0.8;
+}
+.circle1,
+.circle2 {
+  background: white;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  position: absolute;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.4)
+  );
+  z-index: 2;
+}
+.circle1 {
+  top: 4%;
+  right: 2%;
+}
+.circle2 {
+  bottom: 4%;
+  left: 2%;
+}
+.main-box-about-us nav {
+  padding: 50px;
+}
+.main-box-about-us nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-about-us {
+  color: #000000;
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+.bx-about-us {
+  font-size: 1.6rem;
+  color: #fff;
+  padding: 6px 6px;
+  border-radius: 0.5rem;
+  background: #000000;
+  cursor: pointer;
+}
+.main-content-about-us {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.main-text-about-us {
+  max-width: 500px;
+}
+.main-text-about-us h1 {
+  font-size: 2.5rem;
+}
+.main-text-about-us h2 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+.main-text-about-us p {
+  font-size: 1rem;
+  font-weight: 100;
+  margin: 18px 0 40px;
+}
+.btn1-about-us,
+.btn2-about-us {
+  padding: 10px 20px;
+  background: #d41b27;
+  color: #fff;
+  font-weight: 300;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.btn2-about-us {
+  background: #fff;
+  color: #000000;
+  margin-left: 1rem;
+}
+.btn2-about-us:hover {
+  background: #d41b27;
+  color: #fff;
+  transition: 0.5s ease;
+}
+.main-text-about-us::after {
+  content: "";
+  width: 5px;
+  height: 20%;
+  background: #d41b27;
+  position: absolute;
+  left: 2.4rem;
+  top: 11.1rem;
+}
+.main-img-about-us {
+  width: 350px;
+  height: 350px;
+}
+.main-img-about-us img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+
+
+.bg-purple-gradient {
+    background: linear-gradient(rgb(119 120 126), rgba(0, 0, 0, .5)), url(../img/aboutus/background-visi-misi.png) center center no-repeat;
+    background-size: cover;
+}
+
+.card-shadow {
+    filter: drop-shadow(-1px 4px 10px rgba(50, 50, 0, 0.5));
+}
+.benefit-card {
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.benefit-card .card-checkmark {
+    max-width: 50px;
+}
+.benefit-card.clip-bottom {
+    clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+}
+
+.description-career {
+    font-family:'Poppins';
+    font-weight:500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393E44;
+}
+
+.description-career li::before {
+    content: "•"; /* Insert content that looks like bullets */
+    color: coral;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.teams-suksesmultiservis {
+    /* limit the width of the article container */
+    width: 350px;
+    /* display the contents in a column */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: hsl(0, 0%, 100%);
+    line-height: 2;
+    border-radius: 10px;
+    margin: 0.5rem;
+}
+
+figure .figure-teams-sms {
+    /* limit the width and height of the figure to show the image in a circle */
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    /* specify negative margin matching half the height of the element */
+    margin-top: -60px;
+    /* position relative for the pseudo element */
+    position: relative;
+    
+}
+
+figure .figure-teams-sms:before {
+    /* add a border around the figure matching the color of the background, faking the clip */
+    content: "";
+    border-radius: inherit;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    border: 1rem solid hsl(250, 85%, 97%);
+    box-shadow: 0 1px hsla(0, 0%, 0%, 0.1);
+}
+
+.teams-suksesmultiservis .figure-teams-sms img {
+    /* stretch the image to cover the size of the wrapping container */
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    /* object fit to maintain the aspect ratio and fit the width/height */
+    object-fit: cover;
+}
+
+.teams-suksesmultiservis .content-sms-teams {
+    /* center the text in the .content-sms-teams container */
+    text-align: center;
+    margin: 2rem;
+}
+
+.teams-suksesmultiservis .content-sms-teams .p-content-sms--teams {
+    color: hsl(250, 5%, 45%);
+    font-weight: 400;
+    font-style: italic;
+    margin: 1rem 0 3rem;
+    font-family: "Noticia Text", serif;
+    /* position relative for the pseudo element */
+    position: relative;
+    z-index: 5;
+}
+
+.teams-suksesmultiservis .content-sms-teams .p-content-sms--teams:before {
+    /* with SVG elements include two icons for the quote */
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    z-index: -5;
+    opacity: 0.05;
+    /* position the icons at either end of the paragraph, rotate the second to have a mirrorer image */
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70" width="70" height="70"><rect x="0" y="40" width="30" height="30"></rect><path d="M 0 40 q 0 -40 30 -40 v 15 q -15 0 -15 25"></path><rect x="40" y="40" width="30" height="30"></rect><path d="M 40 40 q 0 -40 30 -40 v 15 q -15 0 -15 25"></path></svg>'),
+      url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 70 70" width="70" height="70" transform="rotate(180)"><rect x="0" y="40" width="30" height="30"></rect><path d="M 0 40 q 0 -40 30 -40 v 15 q -15 0 -15 25"></path><rect x="40" y="40" width="30" height="30"></rect><path d="M 40 40 q 0 -40 30 -40 v 15 q -15 0 -15 25"></path></svg>');
+    background-position: 20% 20%, 80% 80%;
+    background-repeat: no-repeat;
+}
+
+.teams-suksesmultiservis .content-sms-teams .h1-content-sms--teams {
+    /* considerably reduce the size of the heading */
+    color: hsl(260, 5%, 55%);
+    font-family: "Lato", sans-serif;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+
+.bg-teams-new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* include an off-white background */
+    /* background: hsl(250, 85%, 97%); */
+    /* add perspective for the rotation of the article, added through the script */
+    perspective: 500px;
+}
+
+.margin-bottom-teams{
+    margin-bottom: 4rem;
+}
+
+.padding-teams {
+    padding-top:3rem !important
+}
+
+#bg-teams-management {
+    background: linear-gradient(rgb(243 241 254), rgba(0, 0, 0, .5)), url(../img/aboutus/background-management.png) center center no-repeat;
+    background-size: cover;
+}
+  
+
+

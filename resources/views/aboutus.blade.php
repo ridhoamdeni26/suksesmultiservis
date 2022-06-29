@@ -125,8 +125,10 @@
                         Kami memahami bahwa kemampuan untuk memperbaiki bukan satu-satunya hal yang dibutuhkan bagi pelanggan kami, waktu penyelesaian yang cepat, kualitas perbaikan standar, pengalaman pelanggan yang luar biasa, juga penting untuk industri ini.
                     </p>
                     <!-- Buttons -->
-                    <a href="#" class="btn1-about-us">View More</a>
-                    <a href="#" class="btn2-about-us">Explore</a>
+                    <div class="button-center-aboutus">
+                        <a href="#" class="btn1-about-us">View More</a>
+                        <a href="#" class="btn2-about-us">Explore</a>
+                    </div>
                 </div>
                 <!-- Image -->
                 <div class="main-img-about-us">
@@ -355,7 +357,7 @@
                         </article>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6 col-xs-12 mb-4">
+                <div class="col-12 col-sm-6 col-md-6 col-xs-12" style="margin-bottom: 5rem;">
                     <div class="bg-teams-new">
                         <article class="mb-3">
                             <figure>

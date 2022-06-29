@@ -315,6 +315,7 @@ h6,
         font-size: 30px;
         font-weight: 600 !important;
     }
+
 }
 
 .carousel-control-prev,
@@ -554,6 +555,16 @@ h6,
 
 .bg-header {
     background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.bg-mitra-kerja {
+    background: linear-gradient(rgba(9, 30, 62, .7), rgba(9, 30, 62, .7)), url(../img/background/mitra-kerja.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.bg-contact-us {
+    background: linear-gradient(rgb(79 91 109 / 70%), rgba(9, 30, 62, .7)), url(../img/background/about-us.jpg) center center no-repeat;
     background-size: cover;
 }
 

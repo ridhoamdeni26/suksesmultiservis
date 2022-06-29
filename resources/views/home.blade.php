@@ -40,8 +40,8 @@
                 </div>
             </div>
         </div>
-        <div class="owl-carousel-item position-relative" data-dot="<img src='{{ url('assets/img/header/header-3.png') }}'>">
-            <img class="img-fluid" src="{{ url('assets/img/header/header-3.png') }}" alt="">
+        <div class="owl-carousel-item position-relative" data-dot="<img src='{{ url('assets/img/header/header-3.jpg') }}'>">
+            <img class="img-fluid" src="{{ url('assets/img/header/header-3.jpg') }}" alt="">
             <div class="owl-carousel-inner">
                 <div class="container">
                     <div class="row justify-content-start">
@@ -183,56 +183,60 @@
                     <ol class="ps-timeline">
                         <li>
                             <div class="img-handler-top">
-                                <p>AIG</p>
-                                <p>ADVAN</p>
-                                <p>LAKU6</p>
-                                <p>BLIBLI</p>
+                                <p class="font-img">AIG</p>
+                                <p class="font-img">ADVAN</p>
+                                <p class="font-img">LAKU6</p>
+                                <p class="font-img">BLIBLI</p>
                             </div>
                             <span class="ps-sp-top">17</span>
                         </li>
                         <li>
                             <div class="img-handler-bot">
-                                <p>ADVAN</p>
-                                <p>ACER</p>
-                                <p>ASUS</p>
-                                <p>QOALA</p>
-                                <p>SALVUS</p>
+                                <div class="mobile-font-image-18">
+                                    <p class="font-img">ADVAN</p>
+                                    <p class="font-img">ACER</p>
+                                    <p class="font-img">ASUS</p>
+                                    <p class="font-img">QOALA</p>
+                                    <p class="font-img">SALVUS</p>
+                                </div>
                             </div>
                             <span class="ps-sp-bot">18</span>
                         </li>
                         <li>
                             <div class="img-handler-top">
-                                <p>AMTRUST</p>
-                                <p>ACER</p>
-                                <p>ASUS</p>
-                                <p>AOC PHILIPS</p>
-                                <p>BROTHER</p>
-                                <p>KANSELIR</p>
-                                <p>ALLIANZ</p>
+                                <p class="font-img">AMTRUST</p>
+                                <p class="font-img">ACER</p>
+                                <p class="font-img">ASUS</p>
+                                <p class="font-img">AOC PHILIPS</p>
+                                <p class="font-img">BROTHER</p>
+                                <p class="font-img">KANSELIR</p>
+                                <p class="font-img">ALLIANZ</p>
                             </div>
                             <span class="ps-sp-top">19</span>
                         </li>
                         <li>
                             <div class="img-handler-bot">
-                                <P>CHUBB</P>
-                                <p>ACER</p>
-                                <p>ASUS</p>
-                                <p>AOC PHILIPS</p>
-                                <p>BROTHER</p>
-                                <p>KANSELIR</p>
-                                <p>ALLIANZ</p>
-                                <P>QOALA</P>
-                                <P>SALVUS</P>
+                                <p class="font-img">CHUBB</P>
+                                <p class="font-img">ACER</p>
+                                <p class="font-img">ASUS</p>
+                                <p class="font-img">AOC PHILIPS</p>
+                                <p class="font-img">BROTHER</p>
+                                <p class="font-img">KANSELIR</p>
+                                <p class="font-img">ALLIANZ</p>
+                                <p class="font-img">QOALA</P>
+                                <p class="font-img">SALVUS</P>
                             </div>
                             <span class="ps-sp-bot">20</span>
                         </li>
                         <li>
                             <div class="img-handler-top">
-                                <p>KUBIK</p>
-                                <p>INFINIX</p>
-                                <p>ITEL</p>
-                                <p>TECNO</p>
-                                <p>BOLTTECH</p>
+                                <div class="mobile-font-image-21">
+                                    <p class="font-img">KUBIK</p>
+                                    <p class="font-img">INFINIX</p>
+                                    <p class="font-img">ITEL</p>
+                                    <p class="font-img">TECNO</p>
+                                    <p class="font-img">BOLTTECH</p>
+                                </div>
                             </div>
                             <span class="ps-sp-top">21</span>
                         </li>

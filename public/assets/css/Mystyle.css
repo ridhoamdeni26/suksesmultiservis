@@ -481,6 +481,72 @@
         margin: 0 auto;
         display: table;
     }
+
+    .ps-timeline-sec .container-milestones ol.ps-timeline {
+        margin:20px !important;
+    }
+
+    .ps-timeline-sec .container-milestones ol:before {
+        top:-2px !important;
+        left:16px !important;
+    }
+
+    .ps-timeline-sec .container-milestones ol:after {
+        left:16px;
+    }
+
+    .ps-timeline-sec .container-milestones ol.ps-timeline li {
+        height: 200px;
+    }
+
+    .font-img {
+        font-size: 15px;
+        font-weight: 600 !important;
+    }
+
+    .mobile-font-image-21 {
+        margin-bottom: -90px !important;
+    }
+
+    .mobile-font-image-18 {
+        margin-bottom: 30px !important;
+    }
+
+    .main-text-about-us {
+        margin-bottom:30px !important;
+    }
+
+    .main-img-about-us {
+        display: none;
+    }
+
+    .main-text-about-us h1 {
+        text-align: center;
+    }
+
+    .main-text-about-us p {
+        margin:18px 30px 40px !important;
+        font-weight:500;
+        text-align: center;
+    }
+
+    .main-text-about-us::after {
+        display: none;
+    }
+
+    .main-box-about-us {
+        opacity: 1;
+    }
+
+    .btn2-about-us {
+        background:#d41b27 !important;
+        color: #FFFFFF !important;
+    }
+
+    .button-center-aboutus {
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 .ps-timeline-sec .container ol:before {

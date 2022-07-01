@@ -23,10 +23,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="{{ url('/') }}" class="nav-item nav-link active">Beranda</a>
+                <a href="{{ url('/') }}" class="nav-item nav-link">Beranda</a>
                 <a href="{{ url('/about-us') }}" class="nav-item nav-link">Perusahaan</a>
-                <a href="{{ url('/partner-us') }}" class="nav-item nav-link">Mitra Kerja</a>
-                <a href="{{ url('/contact-us') }}" class="nav-item nav-link">Hubungi Kami</a>
+                <a href="{{ url('/partner-us') }}" class="nav-item nav-link <?php echo request()->segment(1) == 'partner-us' ? 'active' : null ?>">Mitra Kerja</a>
+                <a href="{{ url('/contact-us') }}" class="nav-item nav-link ">Hubungi Kami</a>
             </div>
             <!-- <a href="https://htmlcodex.com/startup-company-website-template" class="btn btn-primary py-2 px-4 ms-3">Download Pro Version</a> -->
         </div>

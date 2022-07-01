@@ -105,8 +105,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="{{ url('/') }}" class="nav-item nav-link active">Beranda</a>
-                <a href="{{ url('/about-us') }}" class="nav-item nav-link">Perusahaan</a>
+                <a href="{{ url('/') }}" class="nav-item nav-link ">Beranda</a>
+                <a href="{{ url('/about-us') }}" class="nav-item nav-link <?php echo request()->segment(1) == 'about-us' ? 'active' : null ?>">Perusahaan</a>
                 <a href="{{ url('/partner-us') }}" class="nav-item nav-link">Mitra Kerja</a>
                 <a href="{{ url('/contact-us') }}" class="nav-item nav-link">Hubungi Kami</a>
             </div>
@@ -120,6 +120,7 @@
             <div class="main-content-about-us mt-5">
                 <!-- Main Text -->
                 <div class="main-text-about-us">
+                    
                     <h1>Tentang <br>Perusahaan</h1>
                     <p>PT. Sukses Multi Servis didirikan pada November 2015. ezCare adalah merek kami untuk jaringan perbaikan nasional di seluruh Indonesia. Tujuan kami adalah untuk memberikan solusi purna jual nasional satu atap yang luar biasa untuk smartphone dan gadget secara umum dengan layanan yang disesuaikan dan dibedakan.
                         Kami memahami bahwa kemampuan untuk memperbaiki bukan satu-satunya hal yang dibutuhkan bagi pelanggan kami, waktu penyelesaian yang cepat, kualitas perbaikan standar, pengalaman pelanggan yang luar biasa, juga penting untuk industri ini.
@@ -162,7 +163,8 @@
                                         Visi
                                     </h3>
                                     <ul class="description-career mb-4">
-                                        <li>Kami ingin menjadi sebuah penyedia solusi layanan purna jual terlengkap untuk seluruh pelanggan kami di Indonesia</li>
+                                        
+                                        <li> Kami ingin menjadi sebuah penyedia solusi layanan purna jual terlengkap untuk seluruh pelanggan kami di Indonesia</li>
                                     </ul>
                                 </div>
                                 <div class="card-checkmark mx-auto align-self-end">

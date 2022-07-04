@@ -1,6 +1,8 @@
 @extends('layouts.header')
 
 @section('content')
+<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 
 <style>
     .navbar-dark {
@@ -8,6 +10,9 @@
     }
     .navbar-dark .navbar-nav .nav-link {
         color:#091E3E;
+    }
+    #owl-demo .item{
+        margin: 3px;
     }
 </style>
 
@@ -38,7 +43,23 @@
                 <div class="position-relative pb-3 mb-5 mx-auto" style="max-width: 800px;">
                     <div class="mb-0 text-career-2">Open Positions</div>
                 </div>
+
+                <div class="col-12 pt-lg-5 mt-lg-5">
+                    <div class="d-flex justify-content-center">
+                        <div id="owl-demo" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <img src="{{ url('assets/img/career/career1.jpg') }}" class="img-career-slider" alt="Owl Image">
+                            </div>
+                            <div class="item">
+                                <img src="{{ url('assets/img/career/career2.jpg') }}" class="img-career-slider" alt="Owl Image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+        <div class="row py-3">
+            
         </div>
     </div>
 </div>
@@ -77,3 +98,42 @@
 <!-- Contact End -->
 
 @endsection
+
+@section('myjs')
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function() {
+ 
+        $("#owl-demo").owlCarousel({
+            autoPlay: 3000, //Set AutoPlay to 3 seconds
+            center: true,
+            loop:true,
+            items : 1,
+            responsiveClass:true,
+            responsive : {
+            // breakpoint from 0 up
+            0 : {
+                items:1,
+                nav:false,
+                loop:true
+            },
+            // breakpoint from 480 up
+            480 : {
+                items:1,
+                nav:false,
+                loop:true
+            },
+            // breakpoint from 768 up
+            768 : {
+                items:1,
+                nav:false,
+                loop:true
+            }
+        }
+        });
+
+    });
+</script>
+
+@endsection('myjs')
+

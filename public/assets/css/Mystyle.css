@@ -1216,6 +1216,17 @@ ul.job-list > li.job-preview:hover {
     }
 }
 
+/* OWL CAROUSE JOBS */
+.img-career-slider {
+   height: 320px;
+   width: 480px !important;
+   border-radius:30px;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   margin: 0 auto;
+}
+
   
 
 

@@ -50,7 +50,7 @@
                                     <h3 class="text-light mb-0">Karir</h3>
                                 </div>
                                 <div class="link-animated d-flex flex-column justify-content-start">
-                                    <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Lowongan Kerja</a>
+                                    <a class="text-light mb-2" href="{{ url('/career-us') }}"><i class="bi bi-arrow-right text-primary me-2"></i>Lowongan Kerja</a>
                                     <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Magang </a>
                                 </div>
                             </div>

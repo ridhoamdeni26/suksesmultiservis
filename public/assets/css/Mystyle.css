@@ -991,6 +991,231 @@ figure .figure-teams-sms:before {
     background: linear-gradient(rgb(243 241 254), rgba(0, 0, 0, .5)), url(../img/aboutus/background-management.png) center center no-repeat;
     background-size: cover;
 }
+
+
+/* CAREER */
+.text-career {
+    color:#484749;
+    font-family:"Inter", Sans-serif;
+    font-size:48px;
+    font-weight:800;
+    line-height:56px;
+    letter-spacing:-0.5px;
+}
+
+.text-career-2 {
+    text-align: center;
+    color:#484749;
+    font-family:"Inter", Sans-serif;
+    font-size:24px;
+    line-height:24px;
+    letter-spacing:-0.5px;
+}
+
+.section-job {
+	padding: 30px 0;
+	background: #fff;
+}
+
+ul.job-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.job-list > li.job-preview {
+	background: #fff;
+	border: 1px solid #d7e2e9;
+	-webkit-border-radius: 0.4rem;
+	-moz-border-radius: 0.4rem;
+	border-radius: 0.4rem;
+	padding: 1rem 1rem;
+	margin-bottom: 1rem;
+	float: left;
+	width: 100%;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+ul.job-list > li.job-preview:hover {
+	-webkit-box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+	box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.job-title {
+	margin-top: 0.6rem;
+}
+
+.company {
+	color: #96a4b1;
+}
+
+.job-preview .btn {
+	margin-top: 1.1rem;
+}
+
+.float-left {
+    float: left !important;;
+}
+.float-sm-right {
+    float: right !important;
+}
+
+.btn-apply {
+	text-transform: uppercase;
+	font-size: 0.875rem;
+	font-weight: 800;
+	letter-spacing: 1px;
+	background-color: transparent;
+	color:  #393a5f;
+	border: 2px solid #393a5f;
+	padding: 0.6rem 2rem;
+	-webkit-border-radius: 2rem;
+	-moz-border-radius: 2rem;
+	border-radius: 2rem;
+}
+
+.btn-apply:hover {
+	background-color: #393a5f;
+	color:  #fff;
+	border: 2px solid #393a5f;
+}
+
+@media (max-width: 575px) {
+	.job-preview .content {
+		width: 100%;
+	}
+}
+
+/* DETAIL CAREER */
+.text-detail-career {
+    font-family:"Inter", Sans-serif;
+    font-size:34px;
+    font-weight:800;
+    line-height:41px;
+    letter-spacing:-0.8px;
+}
+
+.text-career-detail-2 {
+    text-align: center;
+    color:#484749;
+    font-family:"Inter", Sans-serif;
+    font-size:20px;
+    line-height:20px;
+    letter-spacing:-0.5px;
+}
+
+.job-list-detail {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.job-list-detail > .job-preview-detail {
+	background: #fff;
+	border: 1px solid #d7e2e9;
+	-webkit-border-radius: 0.4rem;
+	-moz-border-radius: 0.4rem;
+	border-radius: 0.4rem;
+	padding: 75px 75px;
+	margin-bottom: 1rem;
+	float: left;
+	width: 100%;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+.job-list-detail > .job-preview-detail:hover {
+	-webkit-box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+	box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+}
+
+.max-width-career-detail {
+    max-width:1440px;
+    display:flex;
+    margin-right:auto;
+    margin-left: auto;
+    position:relative;
+}
+
+.panel-body {
+	padding:40px 0;
+	font-size:15px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	line-height:1.2;
+}
+
+.title-carrer {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #393E44;
+}
+
+.sub-title-carrer {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #26547E;;
+}
+
+.description-career {
+    font-family:'Poppins';
+    font-weight:500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #393E44;
+    list-style-type:circle;
+}
+
+.btn-apply-details {
+    text-transform: uppercase;
+	font-size: 0.875rem;
+	font-weight: 800;
+	letter-spacing: 1px;
+	background-color: transparent;
+	color:  #393a5f;
+	border: 2px solid #393a5f;
+	padding: 0.6rem 2rem;
+	-webkit-border-radius: 2rem;
+	-moz-border-radius: 2rem;
+	border-radius: 2rem;
+}
+
+.btn-apply-details:hover {
+	background-color: #393a5f;
+	color:  #fff;
+	border: 2px solid #393a5f;
+}
+
+@media (max-width: 575px) {
+	.job-preview .content {
+		width: 100%;
+	}
+
+    .section-job {
+        padding:0px;
+    }
+
+    .job-list-detail > .job-preview-detail {
+        padding: 30px 30px;
+    }
+
+    .title-carrer {
+        text-align: center;
+        font-size:30px;
+    }
+}
+
   
 
 

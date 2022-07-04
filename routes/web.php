@@ -7,6 +7,8 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\AboutusController;
 use App\Http\Controllers\Admin\OutletController;
 use App\Http\Controllers\Admin\OutletMapController;
+use App\Http\Controllers\Api\AuthController;
+use App\Http\Controllers\CareerController;
 use App\Http\Controllers\ContactusController;
 use App\Http\Controllers\PartnersmsController;
 
@@ -54,5 +56,9 @@ Route::get('/partner-us', [PartnersmsController::class, 'index']);
 
 // Route Contact us Controllers
 Route::get('/contact-us', [ContactusController::class, 'index']);
+
+// Route Carrer Controllers
+Route::get('/career-us', [CareerController::class, 'index']);
+Route::get('/career-details', [CareerController::class, 'detailsCareer']);
 
 

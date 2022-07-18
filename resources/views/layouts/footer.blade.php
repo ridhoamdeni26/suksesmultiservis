@@ -17,6 +17,10 @@
                                     <p class="mb-0">cs@suksesmultiservis.id</p>
                                 </div>
                                 <div class="d-flex mb-2">
+                                    <i class="bi bi-whatsapp text-primary me-2"></i>
+                                    <p class="mb-0">+62-838-71903555</p>
+                                </div>
+                                <div class="d-flex mb-2">
                                     <i class="bi bi-telephone text-primary me-2"></i>
                                     <p class="mb-0">(021) 4228388</p>
                                 </div>

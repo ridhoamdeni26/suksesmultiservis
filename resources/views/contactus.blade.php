@@ -148,6 +148,12 @@
                     <div class="content">
                         <!-- Info-1 -->
                         <div class="info">
+                            <i class="fab fa-whatsapp"></i>
+                            <h4 class="d-inline-block">WHATSAPP :
+                                <br>
+                                <span>+62-838-71903555</span></h4>
+                        </div>
+                        <div class="info">
                             <i class="fas fa-mobile-alt"></i>
                             <h4 class="d-inline-block">PHONE :
                                 <br>
